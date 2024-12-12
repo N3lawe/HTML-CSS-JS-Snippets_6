@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/Advance_to_do_list_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <title>Advance to-do list</title>
+  </head>
+  <body onload="Tasker.construct();">
+    <section id="ListToDo">
+      <div class="error" id="error">Please write somthing</div>
+      <div class="list-todo">
+        <div class="input">
+          <input
+            type="text"
+            name="task"
+            id="task-input"
+            placeholder="Enter a Task"
+          />
+          <button id="add-task">+</button>
+        </div>
+        <ul id="lists"></ul>
+      </div>
+    </section>
+    <!-- js file -->
+    <script src="js/Advance_to_do_list.js"></script>
+  </body>
+</html>
